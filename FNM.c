@@ -1,11 +1,10 @@
-Fast multipole method (FMM) algorithm in 2 dimensions.
+/*Fast multipole method (FMM) algorithm in 2 dimensions.*/
 ------------------------------------------------------------------------------*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-/*******************************************************************************
-File fmm2d.h is an include file for program fmm2d.c.
+
 *******************************************************************************/
 #define BOX 1.0         /* Cubic simulation-box size */
 #define Npar  16000     /* # of charged particles */
