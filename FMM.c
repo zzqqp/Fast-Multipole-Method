@@ -15,7 +15,7 @@
 #define Max_level 20    /* Array size for quadtree levels (>= L+1) */
 #define Max_term 20     /* Array size for multipole|local terms (>= P) */
 #define EMPTY -1        /* NULL pointer in linked lists */
-/* Variables for timing measurement *******************************************/
+
 double tfmm;            /* Wall-clock time for FMM */
 double tdirect;         /* Wall-clock time for direct calculation */
 
@@ -106,7 +106,7 @@ double eng;           /* Total electrostatic energy */
 double eng_direct;    /* Electrostatic energy by all-pair direct calculation */
 int head[Max_cell];   /* Headers for linked lists */
 int lscl[Max_par];    /* Linked lists for particles in the leaf cells */
-/******************************************************************************/
+
 
 /*----------------------------------------------------------------------------*/
 int main(int argc, char **argv) {
